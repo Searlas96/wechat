@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  	<servlet>
+		<!-- 类名 -->
+		<servlet-name>TestServlet</servlet-name>
+		<!-- 所在的包 -->
+		<servlet-class>com.searlas.course.servlet.TestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<!-- 访问的网址 -->
+		<url-pattern>/TestServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
